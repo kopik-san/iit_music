@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>романсы</title>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/navbar.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="music.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>kosan</title>
+</head>
+<body>
+    <header>
+        <div id="navbar"></div>
+    </header>
+    <div class="header_background">
+        <div class="header">
+            <div class="logo">
+                <img class="logo_image" src="src1/chrome_ZCuG50lUqb.jpg" alt="logo" height="40">
+                <p class="logo_text"><a href="index.html">IIT_MUSIC</a></p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <audio id="myAudio" controls>
+        <source src="src/song1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="song-controls">
+        <button class="prev-song" onclick="playPrev()">⏮️предыдущая песня</button>
+        <button class="next-song" onclick="playNext()">следующая песня⏩</button>
+    </div>
+    <br>
+    <br>
+    <div id="current-song">Сейчас играет: Песня 1</div>
+    <br>
+    <button onclick="addSong()">Добавить песню</button>
+    <ul id="playlist">
+    </ul>
+    <script src="romances.js"></script>
+</body>
+</html>

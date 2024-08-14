@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a {
+    text-decoration: none;
+    color: SlateGrey;
+}
+
+.header_background {
+    height: 130px;
+    padding: 15px;
+    background: white;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    background: Gold;
+    border-radius: 20px;
+    margin-bottom: 18px;
+}
+
+.logo {
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+}
+
+    .logo:hover {
+        transform: scale(1.1);
+    }
+
+.logo_image {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.logo_text {
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+
+    .logo_text a {
+        transition: all .3s ease 0s;
+        font-weight: bold;
+        font-size: 28px;
+        color: lightslategray;
+    }
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+    .navbar li a {
+        transition: all 0.3s ease 0s;
+        font-size: medium;
+    }
+
+        .navbar li a:hover {
+            color: FireBrick;
+        }
+
+.navbar ul li {
+    transition: all .3s ease 0s;
+}
+
+    .navbar ul li:hover {
+        transform: scale(1.1);
+    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Reddit Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    padding: 10px 30px;
+}
+
+.title_text {
+    margin-bottom: 15px;
+}
+
+.platform {
+    width: max-content;
+    transition: all .3s ease 0s;
+    display: flex;
+    align-items: center;
+}
+
+.platform:hover {
+    transform: scale(1.1);
+}
+
+.platform_icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.platform_text {
+    transition: all .3s ease 0s;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.platform_text:hover {
+    color: lightcoral;
+}
+
+.links_section div:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.contacts .section:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.map {
+    border-radius: 20px;
+}

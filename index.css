@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full viewport height */
+}
+
+.genre-section {
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions */
+}
+
+    .genre-section img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .genre-section:hover {
+        transform: scale(1.1); /* Increase size on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    }
+main {
+    flex-grow: 1; /* Allow main content to grow and push footer down */
+}
+
+footer {
+    background-color: LightGoldenrodYellow;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-content {
+    position: relative;
+}
+/* Additional styling for links, images, and headings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a {
+    text-decoration: none;
+    color: SlateGrey;
+}
+
+.header_background {
+    height: 130px;
+    padding: 15px;
+    background: white;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    background: Gold;
+    border-radius: 20px;
+    margin-bottom: 18px;
+}
+
+.logo {
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+}
+
+    .logo:hover {
+        transform: scale(1.1);
+    }
+
+.logo_image {
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.logo_text {
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+
+    .logo_text a {
+        transition: all .3s ease 0s;
+        font-weight: bold;
+        font-size: 28px;
+        color: lightslategray;
+    }
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+}
+
+    .navbar li a {
+        transition: all 0.3s ease 0s;
+        font-size: larger;
+    }
+
+        .navbar li a:hover {
+            color: FireBrick;
+        }
+
+.navbar ul li {
+    transition: all .3s ease 0s;
+}
+
+    .navbar ul li:hover {
+        transform: scale(1.5);
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
