@@ -65,7 +65,7 @@ function playSong(event) {
 }
 
 function updateCurrentSong() {
-    currentSongElement.textContent = `Вы в разделе рэп, сейчас играет: ${songs[currentSong].name}`;
+    currentSongElement.textContent = `Вы в разделе романсы, сейчас играет: ${songs[currentSong].name}`;
 }
 
 // Заполняем плейлист изначально
